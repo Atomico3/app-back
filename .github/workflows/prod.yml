@@ -58,6 +58,11 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
           script: |
+<<<<<<< HEAD
             echo "Iniciando despliegue..."
             /scriptsv2/deploy_back.sh
             echo "Despliegue completado"
+=======
+            echo "Conexión SSH exitosa"
+            /scriptsv2/deploy_back.sh
+>>>>>>> 7b795266b75d419e97d588f105e900196e1a4eba
